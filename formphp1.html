@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="/CSS/ex_formulaire.css">
+    <title>FormWithTable</title>
+    <meta charset="UTF-8">
+        <meta name="Viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <table border="2" cellspacing="0px" style="padding: 10px; margin:10px;" >
+            <form action="form2.php" method="post">
+                   <tr>
+                     <th colspan="2"></th>
+                   </tr>
+                   <tr>
+                    <td>Nom:</td>
+                    <td><br><input type="text" size="30" name="nom"></td> 
+                    <tr>
+                        <td><br>Prenom:</td>
+                        <td><br><input type="text" size="30" name="prenom"></td>
+                        <tr>
+                                <td> <br>Date de Naissance:</td>
+                                <td><br><input type="date" name="date"></td>
+                            </tr>
+                            <tr>
+                                <td> <br>Code Postal:</td>
+                                <td><br><input type="number" name="postal"></td>
+                            </tr>
+                            <tr>
+                                    <td><br>Adresse:</td>
+                                    <td><br><textarea name="Adresse">Hello World</textarea></td>
+                            </tr>
+                        <tr>
+                            <td><br>Sexe:</td>
+                            <td><br><input type="radio" name="gender" value="M" size="30" > 
+                                <label>Masculin </label>
+                                <input type="radio" name="gender" value="F" size="30" >
+                                <label for="radio">Feminin </label>
+                            </td>
+                            <tr>
+                                <td><br>Password: </td>
+                                <td><br><input type="password" name="password"></td>
+                            </tr>
+                            <tr>
+                                <td><br>Confirm Password: </td>
+                                <td><br><input type="password" name="Verfpassword"></td>
+                            </tr>
+                          
+                          
+                            <tr>
+                                <td><br>Domain D'activite:</td>
+                                <td><br><select name="select"><option value="E-commerce">E-commerce</option>
+                                    <option value="Trading">Trading</option>
+                                    <option value="Promoteur">Promoteur</option>
+                                    <option value="Technecien Specialise"> Technecien Specialise</option>
+                                </select>
+                                </td>
+                                <tr>
+                                    <td><br>Autre Domaine:</td>
+                                    <td><br><input list="specialite" name="audomaine"><datalist>a</datalist></td>
+                                                        <tr>
+                                                            <td><br></td>
+                                                            <td><br><input type="submit"> 
+                                                                <input type="reset"></td>
+                                                        </tr>
+                                                    </tr>
+                                                </tr>
+                                            </tr>
+                                        </tr>
+                                    </tr>
+                                </tr>
+                            </tr>
+                        </tr>
+                    </tr>
+                   </tr>
+            </form>
+        </table>
+    </body>
+</head>
+</html>
